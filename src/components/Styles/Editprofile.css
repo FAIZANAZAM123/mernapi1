@@ -1,0 +1,54 @@
+
+
+#edit-profile-container {
+    animation: fadeIn 1.5s;
+
+}
+
+#edit-profile-card {
+    animation: appearsignup 1.5s forwards;
+    border: 1px solid #e2e2e2;
+    background: url('C:\Users\New\Downloads\WhatsApp Image 2023-08-18 at 5.24.25 PM.jpeg');
+}
+
+#edit-profile-title {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+    animation: slideInFromLeft 1s 0.5s forwards;
+}
+
+#edit-name-input, 
+#edit-email-input, 
+#edit-phone-input, 
+#edit-newpassword-input {
+    margin-bottom: 20px;
+    animation: slideInFromLeft 1.5s 1s forwards;
+}
+
+#update-profile-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#update-profile-btn:hover {
+    background-color: #0056B3;
+}
+
+/* Additional animations */
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

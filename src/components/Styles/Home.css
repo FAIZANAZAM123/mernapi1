@@ -1,0 +1,163 @@
+
+.blog-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+
+    padding: 20px;
+}
+.outer{
+    min-height: 100vh;
+
+}
+.p{
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-size: 2.2rem;
+    height: 100vh;
+}
+.loader-container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+
+}
+.innerhomecard {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.innerhomecard:hover {
+    transform: scale(1.05);
+}
+
+.innercard-title {
+    font-size: 20px;
+    margin: 16px;
+    color: #333;
+    border-bottom: 1px solid pink;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 250px;    
+}
+
+.innercard-text {
+    font-size: 16px;
+    margin: 16px;
+    color: black;
+    flex-grow: 1
+}
+
+.innercard-img-top {
+    width: auto;
+    height: 180px;
+    margin-top: 2px;
+}
+
+.innercard-body {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnhome {
+    
+    border-radius: 8px;
+    background-color:darkblue;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: auto;
+    width: fit-content;
+    
+    transition: background-color 0.3s ease;
+}
+.clappedblogs{
+    color:white !important;
+    background-color: red !important;
+}
+.notclapped{
+    color:white !important;
+    background-color: blue !important;
+}
+
+.btnhome:hover {
+    background-color: #0056b3;
+}
+
+
+.innerhomecard {
+    width: 100%;  
+}
+
+.innercard-title {
+    font-size: 22px;  
+}
+.linehome{
+    border-bottom: 2px solid black;
+    margin-left: 10px;
+    margin-right:10px ;
+
+    
+}
+
+.innercard-text {
+    font-size: 18px; 
+}
+.clicked-svg {
+    animation: bounce 1s;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-5px);}
+    60% {transform: translateY(-3px);}
+}
+svg {
+    cursor: pointer;
+    transition: fill 0.3s ease, transform 0.3s ease;
+  }
+  
+  svg:hover {
+    transform: scale(1.1);
+  }
+
+@media (min-width: 768px) {
+    .innercard {
+        width: 48%;  
+        flex-direction: row;
+    }
+
+    .innercard-title {
+        font-size: 21px; 
+    }
+
+    .innercard-text {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .innerhomecard {
+        width: 31.33%;  
+    }
+
+    .innercard-title {
+        font-size: 20px; 
+    }
+
+    .innercard-text {
+        font-size: 16px;
+    }
+}

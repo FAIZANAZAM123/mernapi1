@@ -1,0 +1,145 @@
+.mainaddblogoutercontainer {
+    /* height: 100vh; */
+    height: 120%;
+    /* background-image: url('https://cdn.pixabay.com/photo/2019/03/22/19/32/table-4074014_1280.jpg'); */
+
+}
+
+.blog-editor {
+
+    /* margin: 30px auto; */
+    margin-top: 10px;
+    margin-left: auto;
+    padding: 20px;
+    border: 1px solid gray;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 78%;
+    overflow-y: auto;
+    height: calc(100vh - 180px);
+    justify-content: flex-start;
+
+
+
+
+
+}
+
+.blog-content h1 {
+    color: black;
+    border-bottom: 2px solid red;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    word-wrap: break-word;
+}
+
+.blog-content p {
+    line-height: 1.6;
+    margin: 20px 0;
+    color: black;
+
+}
+
+.blog-content img {
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+    height: 100vh;
+    margin-left: auto;
+    backdrop-filter: 0px;
+    filter: none;
+    opacity: 1;
+        margin-right: auto;
+    display: block;
+    width: 100%;
+}
+
+.editor {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: auto;
+    padding-bottom: 20px;
+
+}
+
+.blogcontenth1 {
+    word-wrap: break-word;
+}
+
+.blogcontentp {
+    word-wrap: break-word;
+}
+
+
+.Addbloginput {
+    padding: 10px;
+    width: 78%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    word-wrap: break-word;
+
+    min-height: 76px;
+
+    margin-left: auto;
+    margin-top: 17px;
+    display: block;
+
+}
+
+.addblogbtn {
+    cursor: pointer;
+    transition: all 0.2s;
+    border-radius: 12px;
+    color: white;
+    margin-top: 10px;
+    padding: 12px 15px;
+    /* background-color: #ff6347; */
+    background-color: red;
+}
+
+.addblogbtn:hover {
+    background-color: #ff4500;
+}
+
+
+.loader-containeraddblog {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    ;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.opacity-effect {
+    opacity: 0.5;
+    pointer-events: none;
+    /* Prevent interactions while loading */
+}
+
+.mainadd {
+    display: flex;
+}
+
+.allbuttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    gap: 15px;
+    position: fixed;
+    /* Make the buttons stick while scrolling */
+    height: 80%;
+
+}

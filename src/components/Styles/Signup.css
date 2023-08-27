@@ -1,0 +1,83 @@
+/* General styling for the entire page */
+
+
+#signup-container {
+    margin: auto;
+
+}
+
+.animated-formsignup {
+    animation: appearsignup 1s forwards;
+}
+
+@keyframes appearsignup {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#signup-col {
+    padding: 0;
+}
+
+#signup-card {
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px 3px red; 
+    border: 1px solid white;
+
+ /* background: url('C:\Users\New\Downloads\WhatsApp Image 2023-08-18 at 5.24.25 PM.jpeg'); */
+}
+
+.interests{
+    font: unset;
+}
+h2.text-center {
+    color: white; /* Slightly darker tone for better contrast */
+    font-weight: 700; /* Bolder weight for prominence */
+}
+
+.form-label {
+    color: white; /* A shade of navy blue */
+    font-weight: 500;
+}
+
+i.fas {
+    margin-left: 0.5rem;
+    color:white; /* Flat icon color */
+}
+
+.input-field {
+    border-radius: 7px; /* Increased radius for a modern look */
+    border: 1px solid white; /* Neutral border color */
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08); /* Lighter shadow for a softer look */
+    transition: border 0.3s, box-shadow 0.3s;
+}
+
+.input-field:focus {
+    border-color: #FFD700; /* Focus on the golden part of the gradient */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08); /* Consistent softer shadow */
+    outline: none;
+}
+
+.signupbtn  {
+    background-color: #333;
+    color:white;
+    border-color: #333;
+    transition: background-color 0.3s, transform 0.3s;
+    width: 30%;
+}
+
+.signupbtn:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+
+
+

@@ -1,0 +1,14 @@
+.LogoutContainer{
+    height: 100vh;
+}
+.loader-containerLogout
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.opacitycontainer{
+    opacity: 0.6;
+    pointer-events: none;
+}

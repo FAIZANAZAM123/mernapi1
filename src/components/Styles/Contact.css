@@ -1,0 +1,29 @@
+/* .card {
+    border: none;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+.input-field {
+    transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: 2px solid transparent;
+}
+
+.input-field:focus {
+    border-color: #f8b500;
+    box-shadow: 0 0 10px rgba(248, 181, 0, 0.5);
+}
+
+.btn-primary {
+    background-color: #333;
+    border-color: #333;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #555;
+    transform: translateY(-2px);
+} */
