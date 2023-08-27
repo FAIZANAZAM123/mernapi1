@@ -1,7 +1,6 @@
 import React, { useEffect, useState, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { UserContext } from '../App';
-import './Styles/Editprofile.css'
 const Editprofile = () => {
     const navigate = useNavigate();
     const { state } = useContext(UserContext);
