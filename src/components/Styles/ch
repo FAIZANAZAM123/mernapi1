@@ -5,6 +5,7 @@
 
 }
 
+
 #edit-profile-card {
     animation: appearsignup 1.5s forwards;
     border: 1px solid #e2e2e2;
