@@ -8,7 +8,6 @@
 #edit-profile-card {
     animation: appearsignup 1.5s forwards;
     border: 1px solid #e2e2e2;
-    background: url('C:\Users\New\Downloads\WhatsApp Image 2023-08-18 at 5.24.25 PM.jpeg');
 }
 
 #edit-profile-title {
